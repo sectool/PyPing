@@ -7,3 +7,7 @@ dili ile yazılmış olan bir ping kontrol yazılımıdır.
 
 * Test edicek ping sayısı belirleme
 * Test edilecek paket boyutunu belirleme
+
+Video Link : https://www.youtube.com/watch?v=DnWKh7faP4M
+
+Kaynak Kod : https://github.com/ismailtasdelen/Python-Ping-Test-Tool
