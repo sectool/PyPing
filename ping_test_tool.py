@@ -5,10 +5,13 @@ import os
 import time
 import socket
 
+paket_boyutu = 56;
+
 def ping_test():
 	ip_adres = str(raw_input("Ping testi için bir ip adresi giriniz : "))
 	ping_adet = str(raw_input("Ping testi için kaç tane ping göndermek istiyorsunuz : "))
-	os.system("ping" + " " + "-c" + ping_adet + " " + ip_adres)
+	paket_boyutu = str(raw_input("Ping testi için paket boyutunu belirleyiniz (default size : 56) : "))
+	os.system("ping" + " " + "-c" + ping_adet + " " + "-s" + " " + paket_boyutu + " " + ip_adres)
 
 ping_test_ico = """
 #########################################################
